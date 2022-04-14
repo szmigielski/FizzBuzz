@@ -13,7 +13,7 @@ public class Task1FizzBuzz {
                     System.out.println("Fizz");
                 } else {
                     System.out.println(number);
-                    
+
                 }
 
             }
