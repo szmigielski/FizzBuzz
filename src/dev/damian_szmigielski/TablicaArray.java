@@ -3,7 +3,7 @@ package dev.damian_szmigielski;
 public class TablicaArray {
     public static void main(String[] args) {
         String[] names = new String[4];
-        // tablica [] nazwa zmiennej = słowo kluczowe new i w [] podajemy rozmiar tablicy
+        // tablica/typ danych [] nazwa zmiennej = słowo kluczowe new i w [] podajemy ilosc elementow
 
         names[0] = "Mariusz";
         names[1] = "Dominik";

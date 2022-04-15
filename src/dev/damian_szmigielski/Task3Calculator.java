@@ -2,7 +2,7 @@ package dev.damian_szmigielski;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class Task3Calculator {
     public static void main (String[] args){
         //program, ktory prosi o 2 liczby i wykona na nich podstawoe operacje matematyczne
         System.out.println("Podaj pierwsza liczbe: ");
