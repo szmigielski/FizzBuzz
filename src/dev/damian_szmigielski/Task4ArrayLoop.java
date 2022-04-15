@@ -15,6 +15,7 @@ public class Task4ArrayLoop {
             int temp = numbers[number]; // dla number = 0 1
             numbers[number] = numbers[numbers.length-1-number] ; // 4-> 0
             numbers[numbers.length-1-number] = temp; // 1
+       //     System.out.println("Iteracja numer " + number);
         }
 
         for (int number=0; number < numbers.length; number++){
