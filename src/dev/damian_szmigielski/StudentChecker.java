@@ -25,20 +25,36 @@ public class StudentChecker {
         ania.email = "tester@wp.pl";
         ania.wiek = 25;
 
-        adam.przedstawSie();
-        adam.zalogujSie();
-        adam.stworzMaila();
-        adam.ileLat();
+        //Tworzymy tablice, ktora zawiera 3 studentow
+        Task5Student[] students = new Task5Student[3];
+        students[0] = adam;
+        students[1] = mariusz;
+        students[2] = ania;
 
-        mariusz.przedstawSie();
-        mariusz.zalogujSie();
-        mariusz.stworzMaila();
-        mariusz.ileLat();
+        //przechodzimy po wszystkich elementach w tablicy
+        for (int i=0; i<students.length; i++){
+            students[i].przedstawSie();
+            students[i].zalogujSie();
+            students[i].stworzMaila();
+            students[i].ileLat();
+        }
 
-        ania.przedstawSie();
-        ania.zalogujSie();
-        ania.stworzMaila();
-        ania.ileLat();
+//Poniżej jest to samo co w iteracji powyżej!
+
+//        adam.przedstawSie();
+//        adam.zalogujSie();
+//        adam.stworzMaila();
+//        adam.ileLat();
+//
+//        mariusz.przedstawSie();
+//        mariusz.zalogujSie();
+//        mariusz.stworzMaila();
+//        mariusz.ileLat();
+//
+//        ania.przedstawSie();
+//        ania.zalogujSie();
+//        ania.stworzMaila();
+//        ania.ileLat();
 
     }
 }
