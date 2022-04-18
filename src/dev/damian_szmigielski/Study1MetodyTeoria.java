@@ -1,7 +1,7 @@
 package dev.damian_szmigielski;
 
 
-public class MetodyTeoria {
+public class Study1MetodyTeoria {
     //public - definiujemy metode, korzystamy z identyfikatora dostepu
     //void - podajemy zwracany typ danych int/string/Task5Student/ void oznacza, ze nie zwraca zadnej wartosci
     //nazwa metody - z malej litery
