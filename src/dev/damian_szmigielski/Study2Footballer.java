@@ -1,0 +1,23 @@
+package dev.damian_szmigielski;
+
+
+//klasa piłkarz rozszerza klasę PersonBaseClass
+public class Study2Footballer extends Study2PersonBaseClass {
+
+    public String footballClub;
+
+    //konstruktor, zaznaczam klase PersonBaseClass -> constructor matching super
+    public Study2Footballer(String name, int age, String footballClub) {
+        //super - wywoła konstruktor klasy nadrzędnej
+        super(name, age);
+        this.footballClub = footballClub;
+    }
+
+    public void playFootball(){
+        System.out.println("I'm playing football");
+    }
+
+    public void footballClub(){
+        System.out.println("Klub pilkarski to " + footballClub);
+    }
+}
