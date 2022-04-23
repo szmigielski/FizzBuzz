@@ -13,8 +13,9 @@ public class Study2Footballer extends Study2PersonBaseClass {
         this.footballClub = footballClub;
     }
 
-    public void playFootball(){
-        System.out.println("I'm playing football");
+    //metoda nadpisuje metode z klasy Person
+    public void eat(){
+        System.out.println("I like healthly food!");
     }
 
     public void footballClub(){

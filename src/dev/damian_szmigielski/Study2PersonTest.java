@@ -16,7 +16,6 @@ public class Study2PersonTest {
         footballer.age = 21;*/
         footballer.walk();
         footballer.eat();
-        footballer.playFootball();
         footballer.footballClub();
     }
 }

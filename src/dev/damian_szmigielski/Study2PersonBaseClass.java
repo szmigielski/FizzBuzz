@@ -10,6 +10,7 @@ public class Study2PersonBaseClass {
 
     }
 
+
     public void eat(){
         System.out.println("I like pizza");
     }
